@@ -9,7 +9,6 @@ const config: Config = {
             {
                 jsc: {
                     parser: {
-                        tsx: true,
                         syntax: "typescript"
                     }
                 },
