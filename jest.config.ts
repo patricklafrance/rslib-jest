@@ -1,10 +1,10 @@
 import type { Config } from "jest";
 
 const config: Config = {
-    testRegex: "/tests/*/.*\\.test\\.(ts|tsx)$",
+    testRegex: "/tests/*/.*\\.test\\.ts$",
     testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     transform: {
-        "^.+\\.(t|j)sx?$": [
+        "^.+\\.(t|j)s?$": [
             "@swc/jest",
             {
                 jsc: {
