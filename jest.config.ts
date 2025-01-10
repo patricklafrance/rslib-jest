@@ -11,11 +11,6 @@ const config: Config = {
                     parser: {
                         tsx: true,
                         syntax: "typescript"
-                    },
-                    transform: {
-                        react: {
-                            runtime: "automatic"
-                        }
                     }
                 },
                 isModule: "unknown"
