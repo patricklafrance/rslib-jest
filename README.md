@@ -1,6 +1,6 @@
 # rslib-jest
 
-Reproduction for issue []().
+Reproduction for issue [670](https://github.com/web-infra-dev/rslib/issues/670).
 
 To reproduce:
 
